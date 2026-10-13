@@ -1,0 +1,962 @@
+[
+  {
+    "setting_id": "sparse_noisy_undersampled__base__default",
+    "family": "base",
+    "family_value": "default",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_undersampled",
+    "topology": "random",
+    "sparsity": 0.1,
+    "samples": 6.0,
+    "noise_std": 0.08,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_undersampled__sparsity__0.05",
+    "family": "sparsity",
+    "family_value": "0.05",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_undersampled",
+    "topology": "random",
+    "sparsity": 0.05,
+    "samples": 6.0,
+    "noise_std": 0.08,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_undersampled__sparsity__0.2",
+    "family": "sparsity",
+    "family_value": "0.2",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_undersampled",
+    "topology": "random",
+    "sparsity": 0.2,
+    "samples": 6.0,
+    "noise_std": 0.08,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.25,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.25,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_undersampled__noise__0.01",
+    "family": "noise",
+    "family_value": "0.01",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_undersampled",
+    "topology": "random",
+    "sparsity": 0.1,
+    "samples": 6.0,
+    "noise_std": 0.01,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_undersampled__noise__0.05",
+    "family": "noise",
+    "family_value": "0.05",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_undersampled",
+    "topology": "random",
+    "sparsity": 0.1,
+    "samples": 6.0,
+    "noise_std": 0.05,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_undersampled__noise__0.1",
+    "family": "noise",
+    "family_value": "0.1",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_undersampled",
+    "topology": "random",
+    "sparsity": 0.1,
+    "samples": 6.0,
+    "noise_std": 0.1,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_undersampled__samples__4",
+    "family": "samples",
+    "family_value": "4",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_undersampled",
+    "topology": "random",
+    "sparsity": 0.1,
+    "samples": 4.0,
+    "noise_std": 0.08,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_undersampled__samples__5",
+    "family": "samples",
+    "family_value": "5",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_undersampled",
+    "topology": "random",
+    "sparsity": 0.1,
+    "samples": 5.0,
+    "noise_std": 0.08,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_undersampled__topology__ring",
+    "family": "topology",
+    "family_value": "ring",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_undersampled",
+    "topology": "ring",
+    "sparsity": 0.1,
+    "samples": 6.0,
+    "noise_std": 0.08,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_undersampled__topology__complete",
+    "family": "topology",
+    "family_value": "complete",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_undersampled",
+    "topology": "complete",
+    "sparsity": 0.1,
+    "samples": 6.0,
+    "noise_std": 0.08,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.25,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.25,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_undersampled__heterogeneity__0.8",
+    "family": "heterogeneity",
+    "family_value": "0.8",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_undersampled",
+    "topology": "random",
+    "sparsity": 0.1,
+    "samples": 6.0,
+    "noise_std": 0.08,
+    "hetero_strength": 0.8,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_undersampled__heterogeneity__2.4",
+    "family": "heterogeneity",
+    "family_value": "2.4",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_undersampled",
+    "topology": "random",
+    "sparsity": 0.1,
+    "samples": 6.0,
+    "noise_std": 0.08,
+    "hetero_strength": 2.4,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_moderate__base__default",
+    "family": "base",
+    "family_value": "default",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_moderate",
+    "topology": "random",
+    "sparsity": 0.1,
+    "samples": 8.0,
+    "noise_std": 0.08,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_moderate__sparsity__0.05",
+    "family": "sparsity",
+    "family_value": "0.05",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_moderate",
+    "topology": "random",
+    "sparsity": 0.05,
+    "samples": 8.0,
+    "noise_std": 0.08,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_moderate__sparsity__0.2",
+    "family": "sparsity",
+    "family_value": "0.2",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_moderate",
+    "topology": "random",
+    "sparsity": 0.2,
+    "samples": 8.0,
+    "noise_std": 0.08,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.0,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.0,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_moderate__noise__0.01",
+    "family": "noise",
+    "family_value": "0.01",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_moderate",
+    "topology": "random",
+    "sparsity": 0.1,
+    "samples": 8.0,
+    "noise_std": 0.01,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.25,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.25,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_moderate__noise__0.05",
+    "family": "noise",
+    "family_value": "0.05",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_moderate",
+    "topology": "random",
+    "sparsity": 0.1,
+    "samples": 8.0,
+    "noise_std": 0.05,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_moderate__noise__0.1",
+    "family": "noise",
+    "family_value": "0.1",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_moderate",
+    "topology": "random",
+    "sparsity": 0.1,
+    "samples": 8.0,
+    "noise_std": 0.1,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_moderate__samples__4",
+    "family": "samples",
+    "family_value": "4",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_moderate",
+    "topology": "random",
+    "sparsity": 0.1,
+    "samples": 4.0,
+    "noise_std": 0.08,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_moderate__samples__6",
+    "family": "samples",
+    "family_value": "6",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_moderate",
+    "topology": "random",
+    "sparsity": 0.1,
+    "samples": 6.0,
+    "noise_std": 0.08,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_moderate__topology__ring",
+    "family": "topology",
+    "family_value": "ring",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_moderate",
+    "topology": "ring",
+    "sparsity": 0.1,
+    "samples": 8.0,
+    "noise_std": 0.08,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_moderate__topology__complete",
+    "family": "topology",
+    "family_value": "complete",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_moderate",
+    "topology": "complete",
+    "sparsity": 0.1,
+    "samples": 8.0,
+    "noise_std": 0.08,
+    "hetero_strength": 1.6,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_moderate__heterogeneity__0.8",
+    "family": "heterogeneity",
+    "family_value": "0.8",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_moderate",
+    "topology": "random",
+    "sparsity": 0.1,
+    "samples": 8.0,
+    "noise_std": 0.08,
+    "hetero_strength": 0.8,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "setting_id": "sparse_noisy_moderate__heterogeneity__2.4",
+    "family": "heterogeneity",
+    "family_value": "2.4",
+    "task": "sparse_recovery",
+    "scenario": "sparse_noisy_moderate",
+    "topology": "random",
+    "sparsity": 0.1,
+    "samples": 8.0,
+    "noise_std": 0.08,
+    "hetero_strength": 2.4,
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.25,
+        "lambda_reg": 0.02
+      },
+      "SDBPG": {
+        "step_mult": 1.25,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.4,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  }
+]

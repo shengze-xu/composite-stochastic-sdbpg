@@ -1,0 +1,70 @@
+[
+  {
+    "task": "phase_retrieval",
+    "scenario": "easy",
+    "algorithm": "DGD",
+    "parameters": {
+      "stepsize": 0.006,
+      "consensus_weight": 0.2
+    }
+  },
+  {
+    "task": "phase_retrieval",
+    "scenario": "easy",
+    "algorithm": "DGT",
+    "parameters": {
+      "stepsize": 0.008
+    }
+  },
+  {
+    "task": "phase_retrieval",
+    "scenario": "hard",
+    "algorithm": "DGD",
+    "parameters": {
+      "stepsize": 0.006,
+      "consensus_weight": 0.2
+    }
+  },
+  {
+    "task": "phase_retrieval",
+    "scenario": "hard",
+    "algorithm": "DGT",
+    "parameters": {
+      "stepsize": 0.006
+    }
+  },
+  {
+    "task": "matrix_factorization",
+    "scenario": "easy",
+    "algorithm": "DGD",
+    "parameters": {
+      "stepsize": 0.0045,
+      "consensus_weight": 0.2
+    }
+  },
+  {
+    "task": "matrix_factorization",
+    "scenario": "easy",
+    "algorithm": "DGT",
+    "parameters": {
+      "stepsize": 0.006
+    }
+  },
+  {
+    "task": "matrix_factorization",
+    "scenario": "hard",
+    "algorithm": "DGD",
+    "parameters": {
+      "stepsize": 0.0045,
+      "consensus_weight": 0.2
+    }
+  },
+  {
+    "task": "matrix_factorization",
+    "scenario": "hard",
+    "algorithm": "DGT",
+    "parameters": {
+      "stepsize": 0.006
+    }
+  }
+]

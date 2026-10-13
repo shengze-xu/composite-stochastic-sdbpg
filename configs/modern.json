@@ -1,0 +1,22 @@
+{
+  "fourier/ProxGT": {
+    "consensus_rounds": 2,
+    "lambda_reg": 0.01,
+    "stepsize": 0.12
+  },
+  "stochastic/L1-SDBPG": {
+    "lambda_reg": 0.02,
+    "step_multiplier": 12.0
+  },
+  "stochastic/Prox-DASA-GT": {
+    "alpha": 0.2,
+    "consensus_rounds": 1,
+    "gamma": 25.6,
+    "lambda_reg": 0.02
+  },
+  "stochastic/ProxGT-SA": {
+    "consensus_rounds": 2,
+    "lambda_reg": 0.02,
+    "stepsize": 2.0
+  }
+}

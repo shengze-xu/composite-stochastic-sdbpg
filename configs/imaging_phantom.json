@@ -1,0 +1,30 @@
+{
+  "Centralized FISTA": {
+    "lambda_reg": 0.005
+  },
+  "L1-SDBPG": {
+    "anchor_weight": 0.75,
+    "dual_stepsize": 0.12,
+    "lambda_reg": 0.01,
+    "neighbor_penalty": 1.0,
+    "primal_stepsize": 0.16,
+    "smoothing_weight": 0.3
+  },
+  "ProxDGT": {
+    "lambda_reg": 0.01,
+    "stepsize": 0.08
+  },
+  "ProxEXTRA": {
+    "lambda_reg": 0.0001,
+    "stepsize": 0.05
+  },
+  "ProxPDA": {
+    "lambda_reg": 0.01,
+    "penalty": 0.15,
+    "stepsize": 0.08
+  },
+  "SDBPG": {
+    "lambda_reg": 0.0,
+    "step_multiplier": 8.0
+  }
+}

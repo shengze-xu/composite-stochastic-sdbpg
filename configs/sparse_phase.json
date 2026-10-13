@@ -1,0 +1,64 @@
+[
+  {
+    "scenario": "sparse_phase_noisy_undersampled",
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.005
+      },
+      "SDBPG": {
+        "step_mult": 1.0,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.008,
+        "lambda_reg": 0.02
+      }
+    }
+  },
+  {
+    "scenario": "sparse_phase_noisy_moderate",
+    "methods": {
+      "L1-SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.005
+      },
+      "SDBPG": {
+        "step_mult": 1.5,
+        "lambda_reg": 0.0
+      },
+      "DGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.2,
+        "lambda_reg": 0.0
+      },
+      "DGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.0
+      },
+      "ProxDGD": {
+        "stepsize": 0.008,
+        "consensus_weight": 0.6,
+        "lambda_reg": 0.02
+      },
+      "ProxDGT": {
+        "stepsize": 0.01,
+        "lambda_reg": 0.02
+      }
+    }
+  }
+]

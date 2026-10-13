@@ -1,0 +1,26 @@
+[
+  {
+    "scenario": "sparse_noisy_undersampled",
+    "algorithm": "PG-EXTRA",
+    "stepsize": "0.05",
+    "lambda_reg": "0.0"
+  },
+  {
+    "scenario": "sparse_noisy_undersampled",
+    "algorithm": "Prox-EXTRA",
+    "stepsize": "0.02",
+    "lambda_reg": "0.0001"
+  },
+  {
+    "scenario": "sparse_noisy_moderate",
+    "algorithm": "PG-EXTRA",
+    "stepsize": "0.05",
+    "lambda_reg": "0.0"
+  },
+  {
+    "scenario": "sparse_noisy_moderate",
+    "algorithm": "Prox-EXTRA",
+    "stepsize": "0.015",
+    "lambda_reg": "0.0001"
+  }
+]
