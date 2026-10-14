@@ -1,7 +1,10 @@
 # Composite and stochastic SDBPG
 
-Official numerical implementation for **Composite and Stochastic Smoothed Decentralized
-Bregman Proximal-Gradient Methods**.
+[![arXiv](https://img.shields.io/badge/arXiv-2610.18231-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.18231)
+[![Paper PDF](https://img.shields.io/badge/Paper-PDF-5A96CD)](https://arxiv.org/pdf/2610.18231)
+
+Official numerical implementation for [**Composite and Stochastic Smoothed Decentralized
+Bregman Proximal-Gradient Methods**](https://arxiv.org/abs/2610.18231).
 
 The paper extends the smooth deterministic SDBPG method of Pu et al.,
 [A Smoothed Bregman Proximal Gradient Algorithm for Decentralized Nonconvex
